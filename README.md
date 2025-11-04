@@ -4,14 +4,14 @@
 ## How to Run
 
 
-Option 1 — Local (without Docker)
+Option 1: Local (without Docker)
 
 uv run python app/train_gan.py      # Train the GAN model
 
 uv run uvicorn app.api:app --reload # Start API locally
 
 
-Option 2 — With Docker
+Option 2: With Docker
 
 docker compose build
 
